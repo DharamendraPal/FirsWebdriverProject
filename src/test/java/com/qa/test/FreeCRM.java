@@ -14,7 +14,7 @@ public class FreeCRM {
   public void OpenFreeCRM() throws InterruptedException
   {
 	  	driver.get("https://www.freecrm.com/index.html");
-	  	Thread.sleep(2000);
+	  	Thread.sleep(1000);
 	  	driver.findElement(By.xpath("input[@type=\"text\"]")).sendKeys("dharm29");
 	  	driver.findElement(By.xpath("input[@type=\"text\"]")).sendKeys("dharm29@123");
 	  	driver.findElement(By.xpath("//input[@type=\"submit\"]")).click();
